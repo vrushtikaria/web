@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+bodyL{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* html {
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: #fff;
+}
+
+body {
+    min-height: 100vh;
+    background-color: dodgerblue;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 1rem 0.5rem;
+} */
+
+#sec {
+    width: 100%;
+    max-width: 420px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    margin-left: 35%;
+    margin-top: 5%;
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0.4);
+}
+#sec2{
+    width: 100%;
+    max-width: 420px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2rem;
+    margin-left: 35%;
+    margin-top: 3%;
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0.4);
+}
+h5{
+    font-size: 25px;
+    margin-left: 35%;
+    margin-bottom: 1%;
+}
+#but{
+background-color: #c2edfb;
+border-radius: 50px;
+width: 50%;
+margin: 15%;
+box-shadow: rgba(25,25,25,.04) 0 0 1px 0,rgba(0,0,0,.1) 0 3px 4px 0;
+color: rgb(49, 0, 128);
+cursor: pointer;
+display: inline-block;
+font-family: Arial,sans-serif;
+font-size: 1em;
+height: 50px;
+padding: 0 25px;
+margin-left: 27%;
+margin-top: 35px;
+transition: all 200ms;
+  }
+
+  #Lid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 25px;
+    font-family: Arial,sans-serif;
+    margin-top: 35px;
+  }
+  #LidOtp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 5px;
+    gap: 10px;
+    font-size: 25px;
+    font-family: Arial,sans-serif;
+    margin-top: 35px;
+  }
+  #inpL{
+    height: 40px;
+    border-radius: 5%;
+    background-color: #669ec4;
+  }
+  #lab{
+    font-size: 25px;
+  }
+  #h{
+    font-size: 25px;
+    margin-left: 25%;
+    margin-bottom: 1%;
+  }
+/* a, a:visited {
+    color: #fff
+}
+
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+label,
+
+
+button {
+  padding: 0.5rem;
+}
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+} */

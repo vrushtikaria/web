@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.nav{
+    background-color: rgb(118, 122, 223);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items:0 1rem;
+    gap: 1 rem;
+    padding:0 1rem;
+}
+.site-title{
+    font-size: 2rem;
+    text-decoration: none;
+}
+.nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display:flex;
+    align-items: center;
+    gap: 1rem;
+}
+.nav a{
+    color: inherit;
+    text-decoration: none;
+    font-size: larger;
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    padding: .25rem;
+}
+.nav li:hover{
+    background-color: rgb(8, 6, 13);
+}
+.nav li:active{
+    background-color: #fff;
+}
